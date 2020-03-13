@@ -1,0 +1,42 @@
+.table {
+  width: 90vw;
+  margin: 2rem auto;
+  font-size: 1rem;
+}
+
+.table tbody tr {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+
+.table tbody tr td,
+.table tbody tr th {
+  height: 100%;
+}
+
+.table tbody tr th {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center;
+}
+
+.table tbody tr th img {
+  width: 1rem;
+}
+
+.table tbody tr th button,
+.table tbody tr td button {
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #d34444;
+  border-color: #d34444;
+  border-radius: 1.5rem;
+  padding: .5rem 2rem;
+}
+.table tbody tr th button:hover,
+.table tbody tr td button:hover {
+  background-color: #a03030;
+  border-color: #a03030;
+}

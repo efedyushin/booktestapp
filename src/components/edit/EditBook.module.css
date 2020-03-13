@@ -1,0 +1,45 @@
+.main {
+  margin: 4rem auto;
+  width: 60vw;
+}
+
+.main form {
+  display: flex;
+  flex-direction: column;
+}
+
+.main form input,
+.main form label {
+  margin: 0 0 1rem;
+}
+
+.main form div {
+  margin: .5rem auto 0;
+}
+
+.main form div button {
+  margin: 0 .5rem 0;
+}
+
+.main form div button[type="submit"] {
+  background-color: #47af1d;
+  border-color: #47af1d;
+}
+
+.main form div button[type="submit"]:hover {
+  background-color: #378817;
+  border-color: #378817;
+}
+
+.main form div button {
+  color: #ffffff;
+  background-color: #d34444;
+  border-color: #d34444;
+  border-radius: 1.5rem;
+  padding: .5rem 2rem;
+}
+
+.main form div button:hover {
+  background-color: #a03030;
+  border-color: #a03030;
+}
